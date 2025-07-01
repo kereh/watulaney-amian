@@ -31,7 +31,7 @@ export function NavbarMain() {
     { href: "#home", label: "Beranda", icon: Home },
     { href: "#history", label: "Sejarah", icon: History },
     { href: "#stats", label: "Demografi", icon: BarChart3 },
-    { href: "#facilities", label: "Fasilitas", icon: Building },
+    { href: "#facilities", label: "Fasilitas Desa", icon: Building },
     { href: "#contact", label: "Kontak", icon: Mail },
   ];
 

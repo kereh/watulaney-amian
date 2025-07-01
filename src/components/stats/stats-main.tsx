@@ -27,10 +27,10 @@ export function StatsMain() {
       textColor: "text-red-600",
     },
     {
-      title: "Kartu Keluarga",
+      title: "Kepala Keluarga",
       value: 232,
       icon: Users,
-      description: "Jumlah Kartu Keluarga",
+      description: "Jumlah Kepala Keluarga",
       color: "from-purple-500 to-purple-600",
       bgColor: "bg-purple-50",
       textColor: "text-purple-600",
@@ -45,10 +45,10 @@ export function StatsMain() {
       textColor: "text-green-600",
     },
     {
-      title: "Laki-Laki",
+      title: "Laki-laki",
       value: 340,
       icon: UserCheck,
-      description: "Jumlah Laki-Laki",
+      description: "Jumlah Laki-laki",
       color: "from-cyan-500 to-cyan-600",
       bgColor: "bg-cyan-50",
       textColor: "text-cyan-600",
@@ -110,15 +110,14 @@ export function StatsMain() {
             className="mb-6 border-red-200 text-red-700 bg-red-50 px-4 py-2"
           >
             <Sparkles className="h-4 w-4 mr-2" />
-            Village Demographics
+            Demografi
           </Badge>
           <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-red-600 via-red-500 to-red-700 bg-clip-text text-transparent mb-6">
-            Our Community
+            Demografi Desa
           </h2>
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Discover the numbers that tell the story of our vibrant village
-            community
+            Berikut adalah demografi desa Watulaney Amian
           </p>
         </div>
 

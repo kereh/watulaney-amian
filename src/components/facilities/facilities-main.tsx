@@ -35,37 +35,37 @@ export function FacilitiesMain() {
 
   const facilities = [
     {
-      title: "Schools",
+      title: "Sekolah",
       count: 2,
       icon: GraduationCap,
-      description: "Educational institutions serving our community",
+      description: "Fasilitas Pendidikan",
       color: "from-red-500 to-red-600", // 🔴 changed
       bgColor: "bg-red-50", // 🔴 changed
       textColor: "text-red-600", // 🔴 changed
     },
     {
-      title: "Churches",
+      title: "Gereja",
       count: 2,
       icon: Church,
-      description: "Places of worship and spiritual gathering",
+      description: "Fasilitas Keagamaan",
       color: "from-purple-500 to-purple-600",
       bgColor: "bg-purple-50",
       textColor: "text-purple-600",
     },
     {
-      title: "Cemetery",
+      title: "Lahan Pekuburan",
       count: 1,
       icon: MapPin,
-      description: "Final resting place for our ancestors",
+      description: "Fasilitas Umum",
       color: "from-gray-500 to-gray-600",
       bgColor: "bg-gray-50",
       textColor: "text-gray-600",
     },
     {
-      title: "Sports Field",
+      title: "Lapangan",
       count: 1,
       icon: Trophy,
-      description: "Recreation and sports activities center",
+      description: "Fasilitas Umum",
       color: "from-green-500 to-green-600",
       bgColor: "bg-green-50",
       textColor: "text-green-600",
@@ -82,15 +82,14 @@ export function FacilitiesMain() {
             className="mb-6 border-red-200 text-red-700 bg-red-50 px-4 py-2"
           >
             <Building className="h-4 w-4 mr-2" />
-            Community Infrastructure
+            Fasilitas
           </Badge>
 
           <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 via-red-600 to-green-600 bg-clip-text text-transparent mb-6">
-            Village Facilities
+            Fasilitas Desa
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Essential services and amenities that make our community thrive and
-            grow together
+            Di Watulaney Amian tersedia beberapa fasilitas desa.
           </p>
         </div>
 
@@ -152,37 +151,35 @@ export function FacilitiesMain() {
               <div className="flex items-center justify-center gap-2 mb-6">
                 <Sparkles className="h-6 w-6 text-purple-600" />
                 <h3 className="text-2xl font-bold text-foreground">
-                  Complete Community Infrastructure
+                  Kesimpulan
                 </h3>
                 <Sparkles className="h-6 w-6 text-purple-600" />
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Our village is equipped with essential facilities that support
-                education, spiritual life, recreation, and community gathering.
-                These 6 key facilities serve our 677 residents across 232
-                households.
+                Desa kami dilengkapi dengan fasilitas penting yang mendukung
+                pendidikan, kehidupan rohani, rekreasi, dan kegiatan masyarakat.
+                Enam fasilitas utama ini melayani 677 penduduk dari 232 kepala
+                keluarga.
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div className="bg-white rounded-xl p-4">
                   <div className="text-2xl font-bold text-red-600">6</div>
-                  <div className="text-sm text-muted-foreground">
-                    Total Facilities
-                  </div>
+                  <div className="text-sm text-muted-foreground">Fasilitas</div>
                 </div>
                 <div className="bg-white rounded-xl p-4">
                   <div className="text-2xl font-bold text-purple-600">100%</div>
-                  <div className="text-sm text-muted-foreground">Coverage</div>
+                  <div className="text-sm text-muted-foreground">Cakupan</div>
                 </div>
                 <div className="bg-white rounded-xl p-4">
                   <div className="text-2xl font-bold text-green-600">677</div>
                   <div className="text-sm text-muted-foreground">
-                    People Served
+                    Penerima Manfaat
                   </div>
                 </div>
                 <div className="bg-white rounded-xl p-4">
                   <div className="text-2xl font-bold text-orange-600">24/7</div>
                   <div className="text-sm text-muted-foreground">
-                    Accessibility
+                    Aksesibilitas
                   </div>
                 </div>
               </div>

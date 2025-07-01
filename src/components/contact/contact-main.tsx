@@ -59,7 +59,7 @@ export function ContactMain() {
     {
       icon: MapPin,
       title: "Address",
-      value: "Watulaney Amian Village Office, [Region/Province]",
+      value: "Watulaney Amian, Kec. Lembean Timur, Kab. Minahasa.",
       color: "text-red-700",
     },
   ];
@@ -79,14 +79,14 @@ export function ContactMain() {
             className="mb-4 border-red-200 text-red-700 bg-red-50"
           >
             <Navigation className="h-4 w-4 mr-2" />
-            Get In Touch
+            Hubungi Kami
           </Badge>
           <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-red-600 via-rose-600 to-red-800 bg-clip-text text-transparent mb-6">
-            Contact & Location
+            Kontak & Lokasi
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          {/* <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Connect with our village administration or visit us in person
-          </p>
+          </p> */}
         </div>
 
         <div className="mb-16">
@@ -111,15 +111,13 @@ export function ContactMain() {
               <div className="w-10 h-10 bg-gradient-to-br from-red-500 to-red-600 rounded-xl flex items-center justify-center">
                 <MessageCircle className="h-5 w-5 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-foreground">
-                Send us a Message
-              </h3>
+              <h3 className="text-2xl font-bold text-foreground">Pesan</h3>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                  <Label htmlFor="name">Full Name</Label>
+                  <Label htmlFor="name">Nama Lengkap</Label>
                   <Input
                     id="name"
                     name="name"
@@ -131,7 +129,7 @@ export function ContactMain() {
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="email">Email Address</Label>
+                  <Label htmlFor="email">Email</Label>
                   <Input
                     id="email"
                     name="email"
@@ -159,7 +157,7 @@ export function ContactMain() {
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="message">Message</Label>
+                <Label htmlFor="message">Pesan</Label>
                 <Textarea
                   id="message"
                   name="message"
@@ -177,13 +175,13 @@ export function ContactMain() {
                 className="w-full bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-medium py-3 rounded-xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
               >
                 <Send className="h-4 w-4 mr-2" />
-                Send Message
+                Kirim Pesan
               </Button>
             </form>
 
             <div className="mt-8 pt-6 border-t border-gray-100">
               <p className="text-sm text-muted-foreground mb-4 text-center">
-                Or connect with us on social media
+                Atau hubungi lewat sosial media kami
               </p>
               <div className="flex justify-center space-x-3">
                 {socialLinks.map((social, index) => (
@@ -207,11 +205,9 @@ export function ContactMain() {
                   <MapPin className="h-5 w-5 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-foreground">
-                    Find Us Here
-                  </h3>
+                  <h3 className="text-xl font-bold text-foreground">Lokasi</h3>
                   <p className="text-muted-foreground text-sm">
-                    Watulaney Amian Village Location
+                    Watulaney Amian
                   </p>
                 </div>
               </div>
@@ -233,7 +229,7 @@ export function ContactMain() {
             <div className="px-6 py-6 bg-gray-50">
               <div className="text-center">
                 <h4 className="font-semibold text-foreground mb-2">
-                  Village Office Address
+                  Alamat Desa
                 </h4>
                 <p className="text-muted-foreground text-sm">
                   Watulaney Amian
