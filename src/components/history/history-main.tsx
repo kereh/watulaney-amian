@@ -3,6 +3,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Sparkles, Mountain } from "lucide-react";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 export function HistoryMain() {
   const [isVisible, setIsVisible] = useState(false);
@@ -56,10 +57,11 @@ export function HistoryMain() {
             <div className="relative group">
               {/* Main Image */}
               <div className="relative overflow-hidden rounded-3xl shadow-2xl">
-                <img
+                <Image
                   src="/batu_licin.jpg"
                   alt="Historical view of Watulaney Amian"
                   className="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
+                  priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
               </div>

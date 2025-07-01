@@ -56,6 +56,7 @@ export function NavbarMain() {
                     alt="Minahasa Logo"
                     sizes="100vh"
                     fill
+                    priority
                   />
                 </div>
               </div>
