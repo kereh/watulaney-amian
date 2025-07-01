@@ -18,46 +18,46 @@ export function StatsMain() {
 
   const stats = [
     {
-      title: "Houses",
+      title: "Rumah",
       value: 182,
       icon: Home,
-      description: "Residential buildings",
+      description: "Jumlah Rumah",
       color: "from-red-500 to-red-600",
       bgColor: "bg-red-50",
       textColor: "text-red-600",
     },
     {
-      title: "Households",
+      title: "Kartu Keluarga",
       value: 232,
       icon: Users,
-      description: "Family units",
+      description: "Jumlah Kartu Keluarga",
       color: "from-purple-500 to-purple-600",
       bgColor: "bg-purple-50",
       textColor: "text-purple-600",
     },
     {
-      title: "Total Population",
+      title: "Penduduk",
       value: 677,
       icon: User,
-      description: "Village residents",
+      description: "Jumlah Penduduk",
       color: "from-green-500 to-green-600",
       bgColor: "bg-green-50",
       textColor: "text-green-600",
     },
     {
-      title: "Men",
+      title: "Laki-Laki",
       value: 340,
       icon: UserCheck,
-      description: "Male residents",
+      description: "Jumlah Laki-Laki",
       color: "from-cyan-500 to-cyan-600",
       bgColor: "bg-cyan-50",
       textColor: "text-cyan-600",
     },
     {
-      title: "Women",
+      title: "Perempuan",
       value: 337,
       icon: UserCheck,
-      description: "Female residents",
+      description: "Jumlah Perempuan",
       color: "from-pink-500 to-pink-600",
       bgColor: "bg-pink-50",
       textColor: "text-pink-600",
@@ -100,27 +100,6 @@ export function StatsMain() {
 
     return () => observer.disconnect();
   }, []);
-
-  const insights = [
-    {
-      title: "Average Family Size",
-      value: (677 / 232).toFixed(1),
-      description: "People per household",
-      icon: Users,
-    },
-    {
-      title: "Housing Density",
-      value: (677 / 182).toFixed(1),
-      description: "People per house",
-      icon: Home,
-    },
-    {
-      title: "Gender Balance",
-      value: "50.2% / 49.8%",
-      description: "Men to Women ratio",
-      icon: TrendingUp,
-    },
-  ];
 
   return (
     <section id="stats" className="py-20 bg-white">

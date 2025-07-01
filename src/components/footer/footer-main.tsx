@@ -73,7 +73,7 @@ export function FooterMain() {
             © {currentYear} Watulaney Amian.
           </p>
           <p className="text-muted-foreground text-sm flex items-center mt-4 md:mt-0">
-            Created by KKN UNSRIT - XXIV
+            Created by KKN-T UNSRIT - XXIV
           </p>
         </div>
       </div>
