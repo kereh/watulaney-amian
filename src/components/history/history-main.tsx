@@ -57,7 +57,7 @@ export function HistoryMain() {
               {/* Main Image */}
               <div className="relative overflow-hidden rounded-3xl shadow-2xl">
                 <img
-                  src="/hero.jpg"
+                  src="/batu_licin.jpg"
                   alt="Historical view of Watulaney Amian"
                   className="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
                 />
