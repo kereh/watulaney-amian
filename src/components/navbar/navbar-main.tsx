@@ -51,7 +51,7 @@ export function NavbarMain() {
               <div className="flex items-center gap-3">
                 <div className="relative w-12 h-12">
                   <Image
-                    src="/logo_minahasa.png"
+                    src="/img/logo_minahasa.png"
                     className="object-fill relative"
                     alt="Minahasa Logo"
                     sizes="100vh"

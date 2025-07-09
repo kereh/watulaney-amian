@@ -56,11 +56,11 @@ export function HistoryMain() {
           >
             <div className="relative group">
               {/* Main Image */}
-              <div className="relative overflow-hidden rounded-3xl shadow-2xl">
+              <div className="relative overflow-hidden rounded-3xl shadow-2xl w-full h-[450px]">
                 <Image
-                  src="/batu_licin.jpg"
+                  src="/img/batu_licin.png"
                   alt="Historical view of Watulaney Amian"
-                  className="w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="relative object-cover transition-transform duration-700 group-hover:scale-105"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   priority
                   fill
@@ -77,7 +77,7 @@ export function HistoryMain() {
                       Batu Licin / Watu Laney
                     </p>
                     <p className="text-xs text-muted-foreground">
-                      Watulaney Amian
+                      Tempat Bersejarah
                     </p>
                   </div>
                 </div>
