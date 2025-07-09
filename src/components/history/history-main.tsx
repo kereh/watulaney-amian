@@ -60,8 +60,10 @@ export function HistoryMain() {
                 <Image
                   src="/batu_licin.jpg"
                   alt="Historical view of Watulaney Amian"
-                  className="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   priority
+                  fill
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
               </div>
